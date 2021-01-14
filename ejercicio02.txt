@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1_ Inicio
 2_ Funcion principal()
 3_ 	num, i[0, n]
@@ -34,3 +35,47 @@
 33_	Escribir "Moto: "+" con motor"+ motor "con numero de asientos" + asientos
 34_ Fin obtenerDatosMotos
 35_ Fin
+=======
+1. Inicio
+2. funcion principal()
+3. opción, i[0-n]
+4. mensaje, x(200) [{a-z}, {A-Z}, {0-9}, {BS}]
+5. Escribir "Ingrese 1 para ingresar datos sobre un auto y 2 para ingresar datos de una moto"
+6. Leer opcion
+7. Si ( opcion == 1 ) entonces
+8.  mensaje <-- datosAutos()
+9. De lo contrario
+10. Si (opcion == 2) entonces
+11. mensaje <-- datosMotos()
+12. De lo contrario
+13. Escribir "Opcion incorrecta"
+14. Fin Si 
+15. Escribir mensaje
+16. Fin funcion Principal
+17. 
+18. funcion datosAutos()
+19. marcaA, x(200) [{a-z}, {A-Z}, {0-9}, {BS}]
+20. año, i[0-n]
+21. cadenaF, x(200) [{a-z}, {A-Z}, {0-9}, {BS}] <-- ""
+22. Escribir " Ingresar la marca del auto"
+23. Leer marcaA
+24. Escribir " Ingresar el año de fabricación"
+25. Leer año
+26. cadenaF <-- cadenaF + "Auto marca" + marcaA + "con año de fabricación" + año
+27. return cadenaF
+28. Fin funcion datosAutos
+29. 
+30. funcion datosMotos()
+31. tmotor, x(200) [{a-z}, {A-Z}, {0-9}, {BS}]
+32. nasientos, i[0-n]
+33. cadenaF, x(200) [{a-z}, {A-Z}, {0-9}, {BS}] <-- ""
+34. Escribir "Ingrese el tipo de motor de la moto"
+35. Leer tmotor
+36. Escribir "Ingrese el número de asientos de la moto"
+37. Leer nasientos
+38. cadenaF <-- cadenaF + "Moto con motor" + tmotor + " y " + nasientos + " asientos "
+39. return cadenaF
+40. Fin funcion datosMotos
+41. 
+42. Fin .
+>>>>>>> b597151bc3d73794ef271ad492c671dff45b4aca
