@@ -1,7 +1,7 @@
 1. Inicio 
 2. función Principal ()
-3. arreglo1(4), i[0-n] <-- {9, 8, 7, 6}
-4. arreglo2(4), i[0-n] <-- {2, 3, 2, 3}
+3. arreglo1(4), i[0-n] <-- {1, 2, 5, 6}            
+4. arreglo2(4), i[0-n] <-- {9, 8, 7, 6} 
 5. contador, i[0-n] <-- 0
 6. Mientras ( contador < 4 ) entonces
 7. generarOperacion ( arreglo1(contador), arreglo2(contador)
