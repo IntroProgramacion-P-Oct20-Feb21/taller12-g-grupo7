@@ -1,0 +1,36 @@
+1_ Inicio
+2_ Funcion principal()
+3_ 	num, i[0, n]
+4_	Escribir "Ingrese 1 para datos de autos, 2 para datos de motos"
+5_	Leer num
+6_	Si num == 1 entonces
+7_		obtenerDatosAutos()
+8_	De lo contario
+9_	Si num == 2 entonces
+10_		obtenerDatosMotos()
+11_	De lo contario
+12_	Si num == 3 entonces
+13_	De lo contrario
+14_		Escribir "El numero que escribio es incorrecto"
+15_ 	Fin si	
+16_ Fin funcion principal
+17_ funcion obtenerDatosAutos()
+18_	Marca, x(200)[{1-9},{a-z},{A-Z}, {/
+19_	añoFabricacion, x(200)[{1-9},{a-z},{A-Z}, {/
+20_	Escribir "Ingrese la  marca del automovil"
+21_	Leer marca
+22_     Escribir "Ingrese el  año de  fabricacion"
+21_	Leer añoFabricacion
+23_	Escribir "El Auto":+ "marca" + marca + "con fecha de fabricacion" +añoFabricacion
+24_ Fin funcion obtenerDatosAtutos()
+25_ funcion obtenerDatosMotos()
+26_	motor, x(200)[{1-9},{a-z},{A-Z}, {/
+27_	asientos, i[0, n]
+28_	
+29_	Escribir "Ingrese el motor"
+30_	Leer motor
+31_	Escribir "Ingrese el numero de asientos"
+32_	Leer asientos
+33_	Escribir "Moto: "+" con motor"+ motor "con numero de asientos" + asientos
+34_ Fin obtenerDatosMotos
+35_ Fin
